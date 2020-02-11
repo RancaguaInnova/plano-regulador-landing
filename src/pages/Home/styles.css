@@ -1,0 +1,32 @@
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+h4 {
+    font-size: 1.2rem;
+}
+.banner {
+    margin-bottom: 2rem;
+    background-color: #ed1648;
+    padding: 15px;
+    color: white
+}
+
+section {
+    margin-top: 15px
+}
+
+.poll-form {
+    text-align: left;
+    border: 1px solid grey; 
+    margin-top: 15px;
+    border-radius: 16px;
+    padding: 16px;
+}
