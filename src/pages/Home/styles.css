@@ -16,17 +16,21 @@ h4 {
     margin-bottom: 2rem;
     background-color: #ed1648;
     padding: 15px;
-    color: white
+    color: white;
 }
 
 section {
-    margin-top: 15px
+    margin-top: 15px;
 }
 
 .poll-form {
     text-align: left;
-    border: 1px solid grey; 
+    border: 1px solid grey;
     margin-top: 15px;
     border-radius: 16px;
     padding: 16px;
+}
+
+.alt-img {
+    font-size: 0.8rem;
 }

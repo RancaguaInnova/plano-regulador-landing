@@ -9,7 +9,7 @@ const Loading: React.FC = () => {
                     <img
                         src='/assets/images/logo.png'
                         width='auto'
-                        height='30'
+                        height='50'
                         className='d-inline-block align-top'
                         alt='React Bootstrap logo'
                     />

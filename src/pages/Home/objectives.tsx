@@ -9,11 +9,14 @@ const Home: React.FC = () => {
                 <div className='row p-4'>
                     <div className='col-md-6'>
                         <img className='img-fluid' src='/assets/images/estado.jpg' />
-                        <p className='font-italic'>Fotografía Paseo Estado de 2009 (Fuente: Fotos Rancagua antiguo.)</p>
+                        <p className='font-italic alt-img'>
+                            Fotografía Paseo Estado de 2009 (Fuente: Fotos Rancagua antiguo.)
+                        </p>
                     </div>
                     <div className='col-md-6'>
                         <h4 className='text-center'>
-                            Esta modificación del plano regulador está motivada por lo siguientes principios
+                            Esta Modificación al Plan Regulador Comunal de Rancagua está motivada por los siguientes
+                            principios
                         </h4>
                         <div className='text-left'>
                             <ul className='list-group list-group-flush'>

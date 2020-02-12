@@ -9,8 +9,10 @@ const Home: React.FC = () => {
     return (
         <div className='home'>
             <div className='banner'>
-                <h1>MODIFICACIÓN Nº 22</h1>
-                <h2>Al Plan Regulador Comunal de Rancagua</h2>
+                <h1>EJE ESTADO</h1>
+                <h2>
+                    MODIFICACIÓN 22<br /> Al Plan Regulador Comunal de Rancagua
+                </h2>
             </div>
             <div className='container'>
                 <Info />
