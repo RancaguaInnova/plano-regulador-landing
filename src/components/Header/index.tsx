@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
+import { Navbar } from 'react-bootstrap'
 const Loading: React.FC = () => {
     return (
         <div className='header'>
