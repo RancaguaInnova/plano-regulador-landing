@@ -3,7 +3,7 @@ import './styles.css'
 import Button from 'react-bootstrap/Button'
 const Poll: React.FC = () => {
     return (
-        <section>
+        <section className='mb-4'>
             <h3 className='text-center font-weight-bold'>ENCUESTA</h3>
             <div className='row'>
                 <div className='col-12'>

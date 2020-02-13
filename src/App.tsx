@@ -21,7 +21,7 @@ const App: React.FC = () => {
                         </Route>
                     </Switch>
                 </Suspense>
-                <Footer />
+                {/*  <Footer /> */}
             </div>
         </Router>
     )
