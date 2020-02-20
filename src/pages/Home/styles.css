@@ -34,3 +34,7 @@ section {
 .alt-img {
     font-size: 0.8rem;
 }
+
+.btn-danger {
+    background-color: #ed1648;
+}

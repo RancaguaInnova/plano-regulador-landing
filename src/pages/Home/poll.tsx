@@ -1,23 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './styles.css'
-import Button from 'react-bootstrap/Button'
+import PollModal from 'components/PollModal'
 const Poll: React.FC = () => {
+    const [ modal, showModal ] = useState(false)
     return (
         <section className='mb-4'>
             <h3 className='text-center font-weight-bold'>ENCUESTA</h3>
+
             <div className='row'>
                 <div className='col-12'>
-                    <p className='text-justify'>
+                    <p className='text-center'>
                         Si estás interesado en darnos tu opinión sobre la imagen objetivo te pedimos respondas la
                         siguiente encuesta
                     </p>
-                    <p className='text-justify'>
+
+                    <a className='btn btn-lg btn-danger' href='https://forms.gle/J3thA9d2iToYtPLC6' target='_blank'>
+                        RESPONDER ENCUESTA
+                    </a>
+
+                    {/* <PollModal show={modal} onClose={() => showModal(false)} /> */}
+
+                    {/*  <p className='text-justify'>
                         <b>Nota</b>: sólo se considerarán válidas las respuestas de personas mayores de 18 años con
                         domicilio electoral en la comuna de rancagua (Según registro del SERVEL)
-                    </p>
+                    </p> */}
                 </div>
             </div>
-            <div className='row'>
+            {/* <div className='row'>
                 <div className='offset-md-2 col-md-8 col-xs-12'>
                     <form className='poll-form'>
                         <div className='form-group'>
@@ -104,7 +113,7 @@ const Poll: React.FC = () => {
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }

@@ -31,15 +31,23 @@ const PollModal: React.FC<ModalProps> = ({ show = false, onClose = () => {} }) =
         <div className='loading'>
             <Modal show={visible} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
+                    <Modal.Title>ENCUESTA</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+                <Modal.Body>
+                    <iframe
+                        src='https://docs.google.com/forms/d/e/1FAIpQLSdEpJTMdsk3SVezjF34lPel4ArDqDGV6Ct1Yjome1Zw2A4Z0w/viewform?embedded=true'
+                        width='auto'
+                        height='574'
+                    >
+                        Cargando…
+                    </iframe>
+                </Modal.Body>
                 <Modal.Footer>
-                    <Button variant='secondary' onClick={handleClose}>
-                        Close
+                    <Button variant='link' onClick={handleClose}>
+                        CERRAR
                     </Button>
-                    <Button variant='primary' onClick={sendPoll}>
-                        Save Changes
+                    <Button variant='danger' onClick={sendPoll}>
+                        ENVIAR
                     </Button>
                 </Modal.Footer>
             </Modal>
